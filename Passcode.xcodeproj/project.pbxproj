@@ -11,6 +11,9 @@
 		2E9FAE2C2BAA6DBD00209EB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE2B2BAA6DBD00209EB9 /* ContentView.swift */; };
 		2E9FAE2E2BAA6DBF00209EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FAE2D2BAA6DBF00209EB9 /* Assets.xcassets */; };
 		2E9FAE312BAA6DBF00209EB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FAE302BAA6DBF00209EB9 /* Preview Assets.xcassets */; };
+		2E9FAE382BAA71ED00209EB9 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE372BAA71ED00209EB9 /* PasscodeView.swift */; };
+		2E9FAE3A2BAA723D00209EB9 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE392BAA723D00209EB9 /* NumberPadView.swift */; };
+		2E9FAE3C2BAA725100209EB9 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE3B2BAA725100209EB9 /* IndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2E9FAE2B2BAA6DBD00209EB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E9FAE2D2BAA6DBF00209EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9FAE302BAA6DBF00209EB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E9FAE372BAA71ED00209EB9 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		2E9FAE392BAA723D00209EB9 /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		2E9FAE3B2BAA725100209EB9 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				2E9FAE2B2BAA6DBD00209EB9 /* ContentView.swift */,
 				2E9FAE2D2BAA6DBF00209EB9 /* Assets.xcassets */,
 				2E9FAE2F2BAA6DBF00209EB9 /* Preview Content */,
+				2E9FAE372BAA71ED00209EB9 /* PasscodeView.swift */,
+				2E9FAE392BAA723D00209EB9 /* NumberPadView.swift */,
+				2E9FAE3B2BAA725100209EB9 /* IndicatorView.swift */,
 			);
 			path = Passcode;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9FAE382BAA71ED00209EB9 /* PasscodeView.swift in Sources */,
 				2E9FAE2C2BAA6DBD00209EB9 /* ContentView.swift in Sources */,
 				2E9FAE2A2BAA6DBD00209EB9 /* PasscodeApp.swift in Sources */,
+				2E9FAE3A2BAA723D00209EB9 /* NumberPadView.swift in Sources */,
+				2E9FAE3C2BAA725100209EB9 /* IndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
